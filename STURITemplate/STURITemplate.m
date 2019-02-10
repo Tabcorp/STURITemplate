@@ -125,6 +125,7 @@ static NSString *STURITemplateStringByAddingPercentEscapes(NSString *string, STU
 
 
 @interface STURITemplateScanner : NSObject
+- (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithString:(NSString *)string __attribute__((objc_designated_initializer));
 - (BOOL)scanString:(NSString *)string intoString:(NSString * __autoreleasing *)result;
 - (BOOL)scanCharactersFromSet:(NSCharacterSet *)set intoString:(NSString **)result;

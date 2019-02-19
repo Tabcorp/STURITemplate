@@ -2,3 +2,4 @@
 *.xcodeproj/xcuserdata
 
 .bundle
+Carthage
